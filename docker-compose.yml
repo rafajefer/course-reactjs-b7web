@@ -1,0 +1,12 @@
+services:
+    app:
+        container_name: reactjs-container
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: unless-stopped
+        working_dir: /app
+        volumes:
+          - .:/app
+        tty: true
+
