@@ -1,13 +1,13 @@
-import { Exemplo3 } from '@/components/EmojiRating';
+import { StudentTable } from '@/components/StudentTable';
+import { students } from '@/data/students';
 
 export default () => {
   return (
-    <div className='w-full h-screen flex items-center justify-center flex-col'>
-      <Exemplo3 rate={1.5} />
-      <Exemplo3 rate={2} />
-      <Exemplo3 rate={3} />
-      <Exemplo3 rate={4} />
-      <Exemplo3 rate={5} />
+    <div className='w-full h-screen justify-center flex-col'>
+      <h1 className="text-5xl py-5">Lista de Estudantes</h1>
+      <div className="w-[900px] mx-auto">
+        <StudentTable students={students} />
+      </div>
     </div>
   );
 }
