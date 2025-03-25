@@ -1,10 +1,10 @@
 "use client";
 
-import { GalleryPhotosPage } from "@/Pages/GalleryPhotosPage";
+import { EmojiRatingPage } from "@/Pages/EmojiRatingPage";
 
 export default () => {
 
   return (
-    <GalleryPhotosPage />
+    <EmojiRatingPage />
   );
 }
