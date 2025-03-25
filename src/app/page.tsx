@@ -1,10 +1,10 @@
 "use client";
 
-import QuizPage from "@/Pages/QuizPage";
+import { GalleryPhotosPage } from "@/Pages/GalleryPhotosPage";
 
 export default () => {
 
   return (
-    <QuizPage />
+    <GalleryPhotosPage />
   );
 }
